@@ -42,9 +42,9 @@ export default function Home() {
               <a href="https://github.com/Amila-Janaka" target="_blank"><FaFacebookSquare /></a>
             </div>
             {/* profile */}
-            <div className="m-auto relative w-80 h-80 pt-4 mt-10">
-              <Image src={profileImage} alt="Amila Janaka" 
-              className="rounded-bl-full rounded-br-full rounded-tr-full rounded-tl-full" 
+            <div className="flex justify-center mt-6">
+              <Image src={profileImage} alt="Amila Janaka"
+                className=" w-80 h-90 rounded-bl-full rounded-br-full rounded-tr-full rounded-tl-full"
               />
             </div>
           </div>
